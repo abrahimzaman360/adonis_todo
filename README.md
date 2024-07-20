@@ -1,2 +1,2 @@
-# adonis_todo
+# AdonisJS Todo Manager
 Adonis JS based todo manager
