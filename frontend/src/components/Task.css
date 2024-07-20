@@ -1,0 +1,53 @@
+.task-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .task-card {
+    border: 2px solid #66dbb2;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+  
+  .task-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .task-description {
+    font-size: 1em;
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .task-status {
+    font-size: 1em;
+    margin: 0 0 10px;
+  }
+  
+  .status-label {
+    font-weight: bold;
+    color: #e74c3c; /* Red color for incomplete */
+  }
+  
+  .status-label.completed {
+    color: #27ae60; /* Green color for completed */
+  }
+  
+  .task-timestamps {
+    font-size: 0.9em;
+    color: #999;
+    margin: 5px 0;
+  }
+  
+  
