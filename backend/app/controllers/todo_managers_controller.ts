@@ -45,7 +45,7 @@ export default class TodoManagersController {
 
     // delete action
     try {
-      const res = await db.query().from('tasks').where('task_id', taskId).del()
+      return await db.query().from('tasks').where('task_id', taskId).del()
     } catch (error) {
       return 'Task not found in database: ' + error
     }
